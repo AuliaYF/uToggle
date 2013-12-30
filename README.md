@@ -4,7 +4,7 @@ uToggle
 Main uToggle GUI.
 
 Current Status:
-- 9 Toggles
+- 10 Toggles
 
 Todo Lists:
 - Theme Support
