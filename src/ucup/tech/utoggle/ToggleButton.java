@@ -8,6 +8,8 @@ import ucup.tech.utoggle.utils.uTheme;
 public abstract class ToggleButton {
 	protected Context mContext;
 	protected uTheme mTheme;
+	protected int buttonExtra;
+	
 	private String status;
 	private Drawable icon;
 	
