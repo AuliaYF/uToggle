@@ -23,6 +23,7 @@ public class uToggle extends LinearLayout{
 	
 	private AirplaneButton airplane;
 	private AutoRotationButton rotation;
+	private BatteryButton battery;
 	private BluetoothButton bt;
 	private GpsButton gps;
 	private MobileDataButton mobiledata;
@@ -58,6 +59,7 @@ public class uToggle extends LinearLayout{
 	private void createButton(){
 		Log.i(TAG, "createButton()");
 		airplane = new AirplaneButton(mContext);
+		battery = new BatteryButton(mContext);
 		rotation = new AutoRotationButton(mContext);
 		bt = new BluetoothButton(mContext);
 		gps = new GpsButton(mContext);
@@ -91,6 +93,7 @@ public class uToggle extends LinearLayout{
 		Log.i(TAG, "updateGridView()");
 		toggles = new ArrayList<ToggleButton>();
 		toggles.add(airplane);
+		toggles.add(battery);
 		toggles.add(rotation);
 		toggles.add(bt);
 		toggles.add(gps);
