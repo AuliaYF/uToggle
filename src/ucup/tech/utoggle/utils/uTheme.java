@@ -30,6 +30,9 @@ public class uTheme {
 	
 	public String icon_reboot = "stat_reboot";
 	public String icon_shutdown = "stat_shutdown";
+	
+	public String battery_normal = "stat_sys_battery";
+	public String battery_charging = "stat_sys_battery_charge";
 	public uTheme(Context context){
 		pm = context.getPackageManager();
 	}
